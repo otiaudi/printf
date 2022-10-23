@@ -71,7 +71,7 @@ int write_number(int is_negative, int ind, char buffer[],
 		extra_ch = '-';
 	else if (flags & F_PLUS)
 		extra_ch = '+';
-	else if (flags & F_space)
+	else if (flags & F_SPACE)
 		extra_ch = ' ';
 
 	return (write_num(ind, buffer, flags, width, precision,
